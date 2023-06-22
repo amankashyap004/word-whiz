@@ -1,9 +1,10 @@
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
    return (
       <main>
-         <div className="text-red-900 text-lg">App</div>
+         <Home />
       </main>
    );
 }
