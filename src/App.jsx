@@ -1,13 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Header from "./components/Header";
+import GamePage from "./pages/GamePage";
 
 function App() {
    return (
-      <main>
+      <BrowserRouter>
          <Header />
-         <Home />
-      </main>
+         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/game" element={<GamePage />} />
+         </Routes>
+      </BrowserRouter>
    );
 }
 
