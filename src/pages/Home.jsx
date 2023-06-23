@@ -11,7 +11,7 @@ const Home = () => {
             </h3>
          </div>
          <div className="flex items-center justify-center flex-col p-2 w-1/2">
-            <p className="text-lg font-normal text-zinc-300 text-center">
+            <p className="text-lg font-normal text-slate-400 text-center">
                Test and improve your typing skills while sharpening your spelling abilities.
                Challenge yourself with a variety of engaging word exercises and see how fast and
                accurately you can type!
