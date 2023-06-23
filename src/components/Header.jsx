@@ -5,7 +5,7 @@ const Header = () => {
       <header className="bg-gray-900 text-white py-4">
          <div className="container mx-auto px-4">
             <nav className="flex items-center justify-between">
-               <h1 className="text-2xl font-bold cursor-pointer">
+               <h1 className="text-3xl font-bold cursor-pointer font-YsabeauOffice italic">
                   <span className="text-red-500">W</span>ord
                   <span className="text-red-500">W</span>hiz
                </h1>
