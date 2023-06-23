@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/Button";
 
 const Home = () => {
    return (
@@ -16,8 +17,8 @@ const Home = () => {
                accurately you can type!
             </p>
          </div>
-         <div className="bg-blue-700 px-4 py-2 my-4 cursor-pointer rounded">
-            <h2 className="text-lg text-white">Start playing now and become a Word Whiz!</h2>
+         <div className="mt-8">
+            <Button value="Start playing now and become a word whiz!" />
          </div>
       </main>
    );
