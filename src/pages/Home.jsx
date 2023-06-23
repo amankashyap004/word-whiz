@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../components/Button";
 
 const Home = () => {
@@ -18,7 +19,9 @@ const Home = () => {
             </p>
          </div>
          <div className="mt-8 text-xl">
-            <Button value="Start playing now and become a word whiz!" />
+            <Link to="/game">
+               <Button value="Start playing now and become a word whiz!" />
+            </Link>
          </div>
       </main>
    );
